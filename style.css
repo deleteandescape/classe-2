@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color:#fff;
+  font-family: Helvetica, Arial, sans-serif;
+}
+a{
+  color:#f20;
+  text-decoration: none;
+  transition: all ease 1s;
+}
+
+a[href$="coso.pdf"]{
+  color: blueviolet;
+}
+
+
+a:hover{
+  color:#c40;
+  text-decoration: underline;
+  transition: all ease 1s;
+}
+
+a:hover:after{
+  content:"<333";
+}
+
+h1{
+  font-size: calc(3rem + 5vw);
+}
+
+
+#bloque{
+  margin:5rem;
+  padding: 1rem;
+  background: rgba(0,200,0,.2);
+  border-radius: 1rem;
+  box-shadow: 0 0 5px white;
+}
+
+.xmas{
+  font-family: "orbitron", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.ajuste{
+  font-size:120%;
+}
+
+
+/*
+canvas {
+  display: block;
+}
+
+*/
